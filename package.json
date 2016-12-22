@@ -1,0 +1,14 @@
+{
+  "name": "nuxtresume",
+  "version": "1.0.0",
+  "description": "My resume build with nuxt.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "author": "zhangzju",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^0.9.1"
+  }
+}
