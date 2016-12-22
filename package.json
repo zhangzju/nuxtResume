@@ -9,6 +9,8 @@
   "author": "zhangzju",
   "license": "MIT",
   "dependencies": {
+    "bulma": "^0.2.3",
+    "hover.css": "^2.0.2",
     "nuxt": "^0.9.1"
   }
 }
