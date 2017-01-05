@@ -1,36 +1,26 @@
 <template>
   <div class="container">
-    <img src="~static/nuxt-black.png" />
-    <h2>Thank you for testing nuxt.js</h2>
-    <p>Loaded from the {{ name }}</p>
-    <p><nuxt-link to="/">Back home</nuxt-link></p>
+      <h1 class="title">ZhangWei</h1>
+      <p><nuxt-link to="/about" class="button is-medium is-primary hvr-float-shadow">List</nuxt-link></p>
+      <p><nuxt-link to="/about" class="button is-medium is-primary hvr-float-shadow">Show</nuxt-link></p>
+    <div class="main">
+
+    </div>
+    <div class="footer">
+
+    </div>
   </div>
 </template>
-
 <script>
-export default {
-  data ({ req }) {
-    return {
-      name: req ? 'server' : 'client'
-    }
-  }
-}
+
 </script>
 
 <style scoped>
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: black;
-  color: white;
-  font-family: "Lucida Console", Monaco, monospace;
-  padding-top: 130px;
-  text-align: center;
+p {
+  display:inline-block;
 }
-a {
-  color: silver;
+
+main {
+
 }
 </style>
